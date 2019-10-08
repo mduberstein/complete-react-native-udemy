@@ -1,18 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {View, Text, StyleSheet, Button} from 'react-native'
 
 const CounterScreen = () => {
-    // todo: fix this
-    let counter = 0;
+    // special initialization syntax of state variable and its setter, using useState hook
+    const [counter, setCounter] = useState(0);
     return (
         <View>
             <Button title="Increase" onPress={() => {
-                counter++;
-                console.log(counter);
+                setCounter(counter + 1);
             }}/>
             <Button title="Decrease" onPress={() => {
-                counter--;
-                console.log(counter);
+                setCounter(counter - 1)
             }}/>
             <Text>Current Count {counter}</Text>
         </View>
