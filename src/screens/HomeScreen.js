@@ -15,7 +15,7 @@ const HomeScreen = ({navigation}) => {
       <Button onPress={()=>
         navigation.navigate('Image')} 
         title='Go To Image Demo'/>
-    </View>
+    </View>;
 };
 
 // Before Clip 27
