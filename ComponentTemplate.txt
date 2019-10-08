@@ -1,10 +1,14 @@
 import React from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import {View, Text, StyleSheet, Button} from 'react-native'
 
-const ListScreen = () => {
-    return <Text>ListScreen</Text>
+const CounterScreen = () => {
+    return (
+        <View>
+            <Text>Current Count</Text>
+        </View>
+    );
 };
 
 const styles = StyleSheet.create({});
 
-export default ListScreen;
+export default CounterScreen;
