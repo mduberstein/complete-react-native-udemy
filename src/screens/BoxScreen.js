@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'black',
     // flexDirection: 'row',
-    // alignItems: 'center',
+    alignItems: 'center',
     // justifyContent: 'space-around',
     height: 200
 
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
   textTwoStyle: {
     borderWidth: 3,
     borderColor: 'red',
+    alignSelf: 'stretch',
     flex: 4
   },
   textThreeStyle: {
