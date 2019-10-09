@@ -31,9 +31,13 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'red',
     // position: 'absolute',
+    // top:0,
+    // left:0,
+    // bottom:0,
+    // right:0,
+    // five rules above are equivalent to this one below
+    ...StyleSheet.absoluteFillObject,
     fontSize: 18, 
-    top: 10,
-    left: 10
     // flex: 4
   },
   textThreeStyle: {
