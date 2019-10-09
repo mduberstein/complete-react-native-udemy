@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: 'black',
     // flexDirection: 'row',
-    alignItems: 'center',
+    alignItems: 'stretch',
     // justifyContent: 'space-around',
     height: 200
 
@@ -25,18 +25,21 @@ const styles = StyleSheet.create({
   textOneStyle: {
     borderWidth: 3,
     borderColor: 'red',
-    flex: 4
+    // flex: 4
   },
   textTwoStyle: {
     borderWidth: 3,
     borderColor: 'red',
-    alignSelf: 'stretch',
-    flex: 4
+    // position: 'absolute',
+    fontSize: 18, 
+    top: 10,
+    left: 10
+    // flex: 4
   },
   textThreeStyle: {
     borderWidth: 3,
     borderColor: 'red',
-    flex: 2
+    // flex: 2
   }
 });
 
