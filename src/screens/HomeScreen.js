@@ -1,8 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, View, Button } from 'react-native';
 
-const HomeScreen = ({ navigation }) => {
-  return (
+const HomeScreen = ({ navigation }) => (
     <View>
       <Text style={styles.text}>Hi There!</Text>
       <Button
@@ -33,9 +32,12 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate('Text')}
         title="Go To Text Demo"
       />
+      <Button
+        onPress={() => navigation.navigate('Box')}
+        title="Go To Box Demo"
+      />
     </View>
   );
-};
 
 // Before Clip 27
 // const HomeScreen = (props) => {
